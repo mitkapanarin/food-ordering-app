@@ -2,7 +2,7 @@ import Button from "./elements/Button";
 import pizza_banner from "../assets/images/pizza_banner.png";
 
 
-export const Banner = () => {
+const Banner = () => {
     return (
         <div className="banner w-full md:w-2/3 px-7 mx-auto relative flex items-center-justify-between">
             <div className="banner-deescription w-full md:w-1/2 p-3">
@@ -25,3 +25,5 @@ export const Banner = () => {
         </div>
     )
 }
+
+export default Banner

@@ -5,7 +5,7 @@ import Navigation from './navigation/Navigation'
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Navigation/>
     </div>
   )
